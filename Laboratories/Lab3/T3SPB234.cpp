@@ -1,7 +1,4 @@
 #include "stdafx.h"
-using namespace std;
-
-#if 0
 
 struct polP {
 	int grP, coefP;
