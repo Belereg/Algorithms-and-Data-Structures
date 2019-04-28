@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 int main()
 {
 	int n, i, v[20], imin, j;
@@ -22,4 +22,3 @@ int main()
 		cout << v[i] << ' ';
 	system("pause");
 }
-#endif
