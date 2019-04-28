@@ -145,7 +145,6 @@ int main()
 	}
 	
 	printP(headP);
-#if 1
 	cout << "\n Acum trebuie sa setezi polinomul Q: \n Ce grad sa aiba polinomul Q? \n";
 	cin >> n;
 	for (i = 1; i <= n + 1; i++)
@@ -162,7 +161,6 @@ int main()
 		makeListQ(headQ, lastQ, grad, coeficient);
 	}
 	printQ(headQ);
-#endif
 	cout << "\n ----------------------------------------------- \n";
 	cout << "P(X)=";
 	printP(headP);
@@ -239,4 +237,3 @@ int main()
 	cout << '\n';
 	system("pause");
 }
-#endif
