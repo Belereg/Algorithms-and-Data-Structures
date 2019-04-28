@@ -1,6 +1,6 @@
 #include "stdafx.h"
-#if 0
 ifstream fin("Graf neorientat2.txt");
+
 int a[101][101], v[101], n;
 
 void pb2(int ns)
@@ -33,7 +33,6 @@ int main()
 			nrc++;
 			cout << endl;
 		}
-	cout << "nr de componente conexe : " << nrc << endl;
+	cout << "Nr de componente conexe : " << nrc << endl;
 	system("pause");
 }
-#endif
