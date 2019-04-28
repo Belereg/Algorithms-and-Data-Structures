@@ -1,12 +1,11 @@
 #include "stdafx.h"
-#if 0
+
 struct nod
 {
 	int data;
 	nod *next;
 };
 
-#if 1
 void addLast(nod *&head, nod *&last, int x)
 {
 	nod *p = new nod;
@@ -24,9 +23,7 @@ void addLast(nod *&head, nod *&last, int x)
 		last = p;
 	}
 }
-#endif
 
-#if 1
 void addFirst(nod *&head, nod *&last, int x)
 {
 	//cout << "Elementul care va fi adaugat la inceputul listei este " << x << endl << endl;
@@ -44,7 +41,7 @@ void addFirst(nod *&head, nod *&last, int x)
 		head = p;
 	}
 }
-#endif
+
 void print(nod *head)
 {
 	nod *p = head;
@@ -122,4 +119,3 @@ int main()
 
 	system("pause");
 }
-#endif 
