@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 int main() {
 
 	int i, v[10], x, n, ok = 0;
@@ -19,4 +19,3 @@ int main() {
 
 	system("pause");
 }
-#endif
