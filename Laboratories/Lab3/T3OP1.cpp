@@ -1,6 +1,5 @@
 #include "stdafx.h"
 
-#if 0
 struct nod
 {
 	int data;
@@ -127,4 +126,3 @@ int main()
 	print(head);
 	system("pause");
 }
-#endif
