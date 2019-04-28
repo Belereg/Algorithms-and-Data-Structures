@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#if 0
 ifstream fin("Graf neorientat.txt");
 
 int grad(int x, int n, int m[50][50])
@@ -84,4 +83,3 @@ int main()
 
 	system("pause");
 }
-#endif
