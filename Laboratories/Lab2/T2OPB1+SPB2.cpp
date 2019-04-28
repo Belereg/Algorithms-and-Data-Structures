@@ -1,13 +1,11 @@
 
 #include "stdafx.h"
 
-#if 0
 struct nod {
 	int data;
 	nod *next;
 };
 
-#if 1
 void addFirst(nod *&head, nod *&last, int x)
 {
 	nod *p = new nod;
@@ -24,9 +22,7 @@ void addFirst(nod *&head, nod *&last, int x)
 		head = p;
 	}
 }
-#endif
 
-#if 1
 void addLast(nod *&head, nod *&last, int x)
 {
 	nod *p = new nod;
@@ -44,9 +40,7 @@ void addLast(nod *&head, nod *&last, int x)
 		p->next = NULL;
 	}
 }
-#endif
 
-#if 1
 void addMid(nod *&head, nod *&last, int x, int k)
 {
 	nod *p = new nod;
@@ -75,10 +69,7 @@ void addMid(nod *&head, nod *&last, int x, int k)
 		p->next = temp2;
 		temp->next = p;
 	}
-}
-#endif
 
-#if 1
 void searchVal(nod *&head, int val)
 {
 	cout << '\n';
@@ -91,10 +82,7 @@ void searchVal(nod *&head, int val)
 	else
 		cout << "Valoarea " << val << " nu a fost gasita in lista" << '\n';
 }
-#endif
 
-
-#if 1
 void searchPoz(nod *&head, int poz)
 {
 	nod *p = head;
@@ -115,9 +103,7 @@ void searchPoz(nod *&head, int poz)
 		cout << "Nodul cu pozitia " << poz << " nu exista." << '\n';
 
 }
-#endif
-
-#if 1
+	
 void deleteVal(nod *&head, nod *&last, int deldata)
 {
 	nod *p = head;
@@ -145,9 +131,7 @@ void deleteVal(nod *&head, nod *&last, int deldata)
 	p->next = r->next;
 	delete r;
 }
-#endif
 
-#if 1
 void deletePoz(nod *&head, int delpoz)
 {
 	nod *p = head;
@@ -173,9 +157,7 @@ void deletePoz(nod *&head, int delpoz)
 	p->next = r->next;
 	delete r;
 }
-#endif
 
-#if 1
 void deleteAll(nod *&head)
 {
 	nod *p = head;
@@ -186,8 +168,7 @@ void deleteAll(nod *&head)
 		p = head;
 	}
 }
-#endif
-
+	
 void print(nod *head)
 {
 	nod *p = head;
