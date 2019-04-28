@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 int main() {
 	int n, mijl, ld, ls, v[10], x, ok = 0;
 
@@ -26,4 +26,3 @@ int main() {
 		cout << "NU" << ' ';
 	system("pause");
 }
-#endif
