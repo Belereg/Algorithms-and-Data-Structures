@@ -1,8 +1,5 @@
 #include "stdafx.h"
 
-#if 0
-
-
 struct nod {
 	int data;
 	nod *next;
@@ -140,5 +137,3 @@ int main()
 	}
 	system("pause");
 }
-
-#endif
