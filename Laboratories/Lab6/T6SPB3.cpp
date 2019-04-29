@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#if 0
 
 struct nod
 {
@@ -103,6 +102,7 @@ void popHead(nod *&head)
 	}
 
 }
+
 void popLast(nod *&last)
 {
 	if (last == NULL)
@@ -196,4 +196,3 @@ int main()
 	}
 	system("pause");
 }
-#endif
