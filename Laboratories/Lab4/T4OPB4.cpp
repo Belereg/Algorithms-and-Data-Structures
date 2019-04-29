@@ -1,10 +1,5 @@
 #include "stdafx.h"
-#if 0
 
-///////////////// TEMA 4 SUPLIMENTARA PROBLEMA 4 ////////////////////
-
-// 6 8 1 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 4 2 7 1 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
-// 3 3 1 0 1 0 1 0 1 0 1 3 3 0 1 0 1 0 1 0 1 0
 struct Matrice
 {
 	int* values;
@@ -272,6 +267,3 @@ int main() {
 
 	system("pause");
 }
-
-
-#endif
