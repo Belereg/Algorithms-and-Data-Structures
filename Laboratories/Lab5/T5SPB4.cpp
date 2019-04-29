@@ -1,6 +1,5 @@
 #include "stdafx.h"
 
-#if 0
 struct nod
 {
 	int data;
@@ -103,5 +102,3 @@ int main()
 		cout << "caz invalid";
 	system("pause");
 }
-
-#endif
