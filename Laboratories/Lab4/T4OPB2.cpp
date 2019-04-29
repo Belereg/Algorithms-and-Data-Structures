@@ -1,7 +1,5 @@
 #include "stdafx.h"
 
-#if 0
-
 struct nod
 {
 	int data;
@@ -141,4 +139,3 @@ int main()
 
 	system("pause");
 }
-#endif
