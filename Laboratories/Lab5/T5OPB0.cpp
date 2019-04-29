@@ -1,7 +1,5 @@
 #include "stdafx.h"
 
-#if 0
-
 struct nod
 {
 	int data;
@@ -110,5 +108,3 @@ int main()
 	cout << search(x, stiva) << endl;
 	system("pause");
 }
-
-#endif
