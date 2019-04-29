@@ -1,7 +1,5 @@
 #include "stdafx.h"
 
-#if 0
-
 void citireMatrice(int a[100][100],int m)
 {
 	for (int i = 1; i <= m; i++)
@@ -52,5 +50,3 @@ int main()
 
 	system("pause");
 }
-
-#endif
