@@ -1,5 +1,5 @@
 ﻿#include "stdafx.h"
-#if 0
+
 struct nod
 {
 	int data, LeftSize;
@@ -115,5 +115,3 @@ int main()
 
 	system("pause");
 }
-
-#endif
