@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#if 0
 
 struct nod
 {
@@ -149,4 +148,3 @@ int main()
 	} while (menuChoice);
 	system("pause");
 }
-#endif
