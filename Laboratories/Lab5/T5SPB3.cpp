@@ -1,6 +1,5 @@
 #include "stdafx.h"
 
-#if 0
 struct nod
 {
 	int data;
@@ -88,4 +87,3 @@ int main()
 		cout << "STRIGAAA\n";
 	system("pause");
 }
-#endif
