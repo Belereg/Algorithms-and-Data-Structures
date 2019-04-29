@@ -1,13 +1,12 @@
 #include "stdafx.h"
 
-////////////TEMA 4 SUPLIMENTARA PB3////////
-#if 0
 struct nod
 {
 	int data;
 	nod *next;
 
 };
+
 void addLast(nod *&head, nod *&last, int x)
 {
 	nod *p = new nod;
@@ -51,6 +50,7 @@ void sharing(nod *&head, nod *&headA, nod*&headB)
 		A->next = NULL;
 
 }
+
 void createList(nod *&head, nod *&last)
 {
 	int n, x, i;
@@ -67,6 +67,7 @@ void createList(nod *&head, nod *&last)
 		addLast(head, last, x);
 	}
 }
+
 void print(nod *&head)
 {
 	nod *p = head;
@@ -76,6 +77,7 @@ void print(nod *&head)
 		p = p->next;
 	}
 }
+
 int main()
 {
 	nod *headA = NULL;
@@ -95,4 +97,3 @@ int main()
 
 	system("pause");
 }
-#endif
