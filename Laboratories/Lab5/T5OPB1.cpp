@@ -1,12 +1,11 @@
 #include "stdafx.h"
 
-#if 0
-
 struct nod
 {
 	int data;
 	nod *next;
 };
+
 struct queue
 {
 	nod *head;
@@ -44,12 +43,14 @@ int pop(queue *coada)
 	}
 
 }
+
 int peek(queue *coada)
 {
 	if (coada->head == NULL)
 		return -1;
 	return coada->head->data;
 }
+
 bool empty(queue *coada)
 {
 	if (coada->head == NULL)
@@ -67,6 +68,7 @@ void afiseaza(queue *&coada)
 		p = p->next;
 	}
 }
+
 int search(int a, queue *&coada)
 {
 	nod *p = coada->head;
@@ -115,5 +117,3 @@ int main()
 	cout << search(y, coada);
 	system("pause");
 }
-
-#endif
