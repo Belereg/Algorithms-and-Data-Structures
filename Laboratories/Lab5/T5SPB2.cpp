@@ -73,7 +73,5 @@ int main()
 		cout << "a=b";
 	else
 		cout << "a>b sau a<b";
-
-//	cout << s << endl;
 	system("pause");
 }
