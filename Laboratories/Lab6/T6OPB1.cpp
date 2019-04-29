@@ -1,6 +1,4 @@
-﻿#include "stdafx.h"
-
-#if 0
+#include "stdafx.h"
 
 struct nod
 {
@@ -327,4 +325,3 @@ int main()
 	}
 	system("pause");
 }
-#endif
