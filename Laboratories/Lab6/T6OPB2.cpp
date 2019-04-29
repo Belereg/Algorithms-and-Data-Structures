@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#if 0
 
 struct nod
 {
@@ -50,6 +49,7 @@ void pop(nod *&head)
 	head = head->next;
 	delete p;
 }
+
 int main()
 {
 	nod *head = NULL;
@@ -85,4 +85,3 @@ int main()
 	cout << endl;
 	system("pause");
 }
-#endif
