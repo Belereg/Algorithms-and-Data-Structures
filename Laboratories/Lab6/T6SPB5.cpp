@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 struct nod
 {
 	int val;
@@ -54,6 +54,7 @@ void afisare(nod *start)
 	cout << endl;
 	return;
 }
+
 int main()
 {
 	int x, menuChoice, c;
@@ -110,4 +111,3 @@ int main()
 	} while (menuChoice);
 	system("pause");
 }
-#endif
