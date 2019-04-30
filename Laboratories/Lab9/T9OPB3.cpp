@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 typedef struct
 {
 	int cheie;
@@ -100,4 +100,3 @@ int main()
 	} while (menuchoice != 5);
 	system("pause");
 }
-#endif
