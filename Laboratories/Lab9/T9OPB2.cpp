@@ -1,6 +1,5 @@
 #include "stdafx.h"
 
-#if 0
 void heapmax(int arr[], int n, int i)
 {
 	int largest = i;
@@ -55,4 +54,3 @@ int main()
 
 	system("pause");
 }
-#endif
