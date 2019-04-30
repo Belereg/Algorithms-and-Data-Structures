@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 void afiseaza(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
@@ -63,5 +63,3 @@ int main()
 	cout << endl;
 	system("pause");
 }
-
-#endif
