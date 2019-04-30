@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#if 0
+
 int a[101];
 
 void merge(int low, int mid, int high)
@@ -75,4 +75,3 @@ int main()
 	system("pause");
 
 }
-#endif
